@@ -13,6 +13,7 @@ import {BACKOFFICEComponent} from './BACK-OFFICE/back-office.component';
 import {CategoryDetailsBACKComponent} from './BACK-OFFICE/category-details-BACK/category-details.component';
 import {ProductListBACKComponent} from './BACK-OFFICE/product-list-BACK/product-list.component';
 import {CategoryDetailsComponent} from './FRONT-OFFICE/category-details/category-details.component';
+import { UserSupprimerComponent } from './BACK-OFFICE/user-supprimer/user-supprimer.component';
 
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'admin/updateCategory/:id', component: UpdateCategoryComponent},
   {path: 'admin/detailCategory/:id', component: CategoryDetailsBACKComponent},
   {path: 'admin/products', component: ProductListBACKComponent},
+  {path: 'admin/users', component: UserSupprimerComponent},
   {path: 'admin/addProduct', component: CreateProductComponent},
   {path: 'admin/detailProduct/:id', component: ProductDetailsComponent},
   {path: 'admin/updateProduct/:id', component: UpdateProductComponent}

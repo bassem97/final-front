@@ -40,6 +40,7 @@ import {ProductListBACKComponent} from './BACK-OFFICE/product-list-BACK/product-
 import {CategoryListBACKComponent} from './BACK-OFFICE/category-list-BACK/category-list.component';
 import {CategoryDetailsBACKComponent} from './BACK-OFFICE/category-details-BACK/category-details.component';
 import {BACKOFFICEComponent} from './BACK-OFFICE/back-office.component';
+import { UserSupprimerComponent } from './BACK-OFFICE/user-supprimer/user-supprimer.component';
 
 
 @NgModule({
@@ -66,7 +67,8 @@ import {BACKOFFICEComponent} from './BACK-OFFICE/back-office.component';
     ProductListComponent,
     ProductListBACKComponent,
     CategoryDetailsBACKComponent,
-    BACKOFFICEComponent
+    BACKOFFICEComponent,
+    UserSupprimerComponent
 
   ],
   imports: [

@@ -20,7 +20,7 @@ export class UserService {
   }
 
   remove(id) {
-    return this.http.delete(this.baseUrl + 'Users/' + id, );
+    return this.http.delete(this.baseUrl + '/products/delete/' + id, );
   }
 
   modify(user) {
@@ -31,5 +31,7 @@ export class UserService {
     // @ts-ignore
     return this.http.get(this.baseUrl + 'Users/' + id);
   }
-
+  listUser(): Observable<any> {
+    return this.http.get(this.baseUrl + '/products/listUsers', );
+  }
 }
