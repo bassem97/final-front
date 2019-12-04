@@ -39,9 +39,14 @@ import {UpdateProductComponent} from './BACK-OFFICE/update-product/update-produc
 import {ProductListBACKComponent} from './BACK-OFFICE/product-list-BACK/product-list.component';
 import {CategoryListBACKComponent} from './BACK-OFFICE/category-list-BACK/category-list.component';
 import {CategoryDetailsBACKComponent} from './BACK-OFFICE/category-details-BACK/category-details.component';
+<<<<<<< HEAD
 import {BACKOFFICEComponent} from './BACK-OFFICE/back-office.component';
 import {httpInterceptorProviders} from './services/auth/auth-interceptor';
 
+=======
+import {BACKOFFICEComponent} from './BACK-OFFICE/back-Nav/back-office.component';
+import { PanierComponent } from './FRONT-OFFICE/panier/panier.component';
+>>>>>>> medAmine
 
 @NgModule({
   declarations: [
@@ -67,7 +72,8 @@ import {httpInterceptorProviders} from './services/auth/auth-interceptor';
     ProductListComponent,
     ProductListBACKComponent,
     CategoryDetailsBACKComponent,
-    BACKOFFICEComponent
+    BACKOFFICEComponent,
+    PanierComponent,
 
   ],
   imports: [
